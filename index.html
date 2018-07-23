@@ -13,30 +13,30 @@
 
   <body>
     <style>
-    body{
-    background: #F1BEBE !important;
-}
-    .jumbotron {position: relative;
-    background: #000 url("https://images.pexels.com/photos/838423/pexels-photo-838423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center center;
-    width: 100%;
+    body, html {
     height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/838423/pexels-photo-838423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
-  margin:0;}
+}
   .nav {
     margin: 0;
   }
 }
 </style>
 
-<div class="background">
-    <div class="jumbotron jumbotron-fluid" style="background-color:#9875C6">
-  <div class="container">
-    <h1 class="text-center">Medhavi Gandhi</h1>
-    <p>I'm a junior studying Operations Research and Information Engineering at Cornell University.
-    I'm passionate about data science, design, and computer science</p>
-  </div>
-</div>
+<div class="bg"></div>
+
+    <p class="py-5 text-center">
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
