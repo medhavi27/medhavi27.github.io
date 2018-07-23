@@ -32,6 +32,15 @@
   .navbar
     {margin-bottom: 0px; }
 
+    .thumbnail {
+      position: relative;
+  }
+
+  .caption {
+      position: absolute;
+      top: 45%;
+      left: 0;
+      width: 100%;
   }
 }
 </style>
@@ -49,9 +58,15 @@
 
     <p class="py-5 text-center">
 
-<div class="container">
-  <img src="pic.jpg" class="img-rounded center-block" width=300 height=300>
-    </div>
+      <div class="row" id="box-search">
+          <div class="thumbnail text-center">
+              <img src="pic.jpg" alt="" class="img-responsive">
+              <h2> Medhavi Gandhi </h2>
+              <div class="caption">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quisquam?</p>
+              </div>
+          </div>
+      </div>
 
 
 </body>
