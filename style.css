@@ -76,3 +76,8 @@ ul a {
 		margin: 0;
 
 	}
+  navbar:hover ul {
+
+		display: block;
+
+	}
