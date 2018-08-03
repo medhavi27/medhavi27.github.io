@@ -48,13 +48,13 @@ ul a {
 
 	}
 
-	#menu-icon {
+	#logo {
 
 		display:inline-block;
 
 	}
 
-	nav ul, nav:active ul {
+	navbar ul, nav:active ul {
 
 		display: none;
 		position: absolute;
@@ -68,7 +68,7 @@ ul a {
 
 	}
 
-	nav li {
+	navbar li {
 
 		text-align: center;
 		width: 100%;
