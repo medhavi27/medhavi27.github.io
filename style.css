@@ -58,10 +58,6 @@ ul a {
   max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
 }
 
-.h1 {
-  font-family: 'Asap', sans-serif;
-  font-size: 3vw;
-}
 .p {
   font-family: 'Asap', sans-serif;
   font-size: 1vw;
