@@ -21,6 +21,7 @@ body {
 #logo {
     margin-right: auto;
     padding-right: 800px;
+    object-fit: contain;
 }
 li {
     display: inline;
@@ -61,4 +62,17 @@ ul a {
 .p {
   font-family: 'Asap', sans-serif;
   font-size: 1vw;
+}
+
+footer {
+    color: #31485fff;
+    padding: 2px;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+    background-color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: darkgray;
 }
