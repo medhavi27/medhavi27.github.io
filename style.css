@@ -8,7 +8,7 @@ body {
     padding: 15px 10px 15px 10px;
     display: flex;
     align-items: center;
-    background-color: #ABCDEF;
+    background-color: #3b444b;
     top: 0;
    left: 0;
    right: inherit;
@@ -39,45 +39,30 @@ ul a {
     font-size: 20px;
     text-decoration: none;
 }
-*MEDIA QUERY*/
-@media only screen and (max-width : 640px) {
+.jumbotron {
+  padding: 200px 180px 300px 180px !important;
+  background-image: url('abstract-art-blur-1119973.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-color: transparent;
+}
 
-	navbar {
+.container {
+    color: #ffff;
+    text-align: center;
+    font-size: 3vw;
+}
+.jumbotron .container {
+  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
+}
 
-		position: absolute;
-
-	}
-
-	#logo {
-
-		display:inline-block;
-
-	}
-
-	navbar ul, nav:active ul {
-
-		display: none;
-		position: absolute;
-		padding: 20px;
-		background: #fff;
-		border: 5px solid #444;
-		right: 20px;
-		top: 60px;
-		width: 50%;
-		border-radius: 4px 0 4px 4px;
-
-	}
-
-	navbar li {
-
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-		margin: 0;
-
-	}
-  navbar:hover ul {
-
-		display: block;
-
-	}
+.h1 {
+  font-family: 'Asap', sans-serif;
+  font-size: 3vw;
+}
+.p {
+  font-family: 'Asap', sans-serif;
+  font-size: 1vw;
+}
