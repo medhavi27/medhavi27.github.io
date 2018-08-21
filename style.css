@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Asap');
 body {
    padding-top: 40px;
-  overflow-x: hidden;
+   overflow-x: hidden;
     text-align: center;
     font-family: 'Asap', sans-serif;
     background-color: black !important;
@@ -143,6 +143,17 @@ ul a {
   background-color: #55667f;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.box {
+  width: 1060px;
+  height: 700px;
+  background-color: #67647d;
+  padding-top: 100px;
+  padding: 25px;
+  margin: 25px;
+  border: 2px solid white;
+  justify-content: center;
+  align-content: center;
 }
 footer {
     color: #31485fff;
