@@ -59,13 +59,14 @@ ul a {
 
 .h1 {
   font-family: 'Asap', sans-serif;
-  color: black;
+  color: black !important;
   font-size: 10px;
 
 }
 .h4 {
   font-size: 40px;
   font-family: 'Asap', sans-serif;
+  color: black !important;
 }
 .grow {
   padding: 5px 5px 5px 5px;
@@ -101,7 +102,7 @@ ul a {
   text-align: center;
 }
 #about {
-  color:white;
+  color:black;
   font-family: 'Asap', sans-serif;
   font-size: 30px;
 
