@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Asap');
 body {
-
+   padding-top: 40px;
   overflow-x: hidden;
     text-align: center;
     font-family: 'Asap', sans-serif;
     background-color: black !important;
+    text-decoration: none !important;
 }
 .navbar {
     padding: 15px 10px 15px 10px;
@@ -71,7 +72,7 @@ ul a {
 .grow {
   padding: 5px 5px 5px 5px;
   border-radius:10px;
-    height: 50px;
+    height: 70px;
     width: 22%;
     margin: 5px 1% 5px 1%;
     float: left;
@@ -83,7 +84,7 @@ ul a {
 
 }
 .grow:hover {
-    height: 115px; /* This is the height on hover */
+    height: 350px; /* This is the height on hover */
 }
 
 
@@ -97,7 +98,7 @@ ul a {
 }
 #col1 {
   width:100px;
-  height:800px;
+  height:900px;
   background-color: #55667f;
   text-align: center;
 }
@@ -109,7 +110,7 @@ ul a {
 }
 #col2 {
   width:100px;
-  height:800px;
+  height:900px;
   background-color: #6683af;
   text-align: center;
 }
@@ -119,11 +120,30 @@ ul a {
 }
 #col3 {
   width:100px;
-  height:800px;
+  height:900px;
   background-color: #283f60;
   text-align: center;
 }
 
+.column {
+     padding-left: 50px;
+     padding-right: 50px;
+     justify-content: center;
+     background-color: #55667f
+
+}
+#updates {
+  font-family: 'Asap', sans-serif;
+  color: 	#bdc7d8 !important;
+  text-shadow: 0.5px 0.5px;
+}
+.container-f {
+  padding-left: 20px;
+  display:flex;
+  background-color: #55667f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 footer {
     color: #31485fff;
     padding: 2px;
