@@ -67,7 +67,7 @@ ul a {
 .h4 {
   font-size: 40px;
   font-family: 'Asap', sans-serif;
-  color: black !important;
+  color: white !important;
 }
 .grow {
   padding: 5px 5px 5px 5px;
@@ -94,7 +94,7 @@ ul a {
 
 .row {
   margin-top: 0;
-  background-color: #55667f;
+  background-color: black;
 }
 #col1 {
   width:100px;
@@ -115,6 +115,9 @@ ul a {
   text-align: center;
 }
 
+.h3 {
+  color:#bdc7d8 !important;
+}
 .h3 a {
   text-decoration: none;
 }
@@ -129,7 +132,7 @@ ul a {
      padding-left: 50px;
      padding-right: 50px;
      justify-content: center;
-     background-color: #55667f
+     background-color: black;
 
 }
 #updates {
@@ -140,9 +143,11 @@ ul a {
 .container-f {
   padding-left: 20px;
   display:flex;
-  background-color: #55667f;
+  background-color: black;
   padding-top: 10px;
   padding-bottom: 10px;
+  
+
 }
 .box {
   width: 1060px;
@@ -155,14 +160,6 @@ ul a {
   justify-content: center;
   align-content: center;
 }
-@media screen and (max-width: $app-media-xs)
-    @include flexbox
-    @include flex-direction
-    > div
-      float: none !important
-      width: 100%
-      padding-left: 0 !important
-      padding-right: 0 !important
 
 footer {
     color: #31485fff;
@@ -170,18 +167,10 @@ footer {
     font-family: 'Oxygen', sans-serif;
     text-align: center;
     background-color: white;
-}
+  }
+
 
 footer a {
     text-decoration: none;
     color: darkgray;
-}
-@media only screen and (max-width: 600px) {
-    container-f {
-      width: 100%
-    }
-grow {
-  width: 100%
-}
-
 }
