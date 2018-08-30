@@ -166,7 +166,10 @@ ul a {
 .container-o {
   display: flex;
 }
-
+.column-c {
+  margin-top: 100px;
+  color: white !important;
+}
 footer {
     color: #31485fff;
     padding: 2px;
