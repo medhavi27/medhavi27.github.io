@@ -50,10 +50,11 @@ ul a {
   border-radius:10%;
 }
 .grow {
-  padding: 5px 5px 5px 5px;
-  border-radius:10px;
-    height: 70px;
-    width: 25%;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  border-radius:10%;
+    height: 100px;
+    width: 33%;
     margin: 5px 1% 5px 1%;
     float: left;
     position: relative;
@@ -103,6 +104,13 @@ ul a {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 25px;
   padding-left: 110px !important;
+
+}
+#more4 {
+  color:white !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  padding-left: 30px !important;
 
 }
 #col2 {
