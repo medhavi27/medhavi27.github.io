@@ -113,6 +113,12 @@ ul a {
   padding-left: 30px !important;
 
 }
+#more5 {
+  color:darkgray !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 17px;
+  padding-left: 60px !important;
+}
 #col2 {
   padding-left: 50px !important;
   width:100px;
