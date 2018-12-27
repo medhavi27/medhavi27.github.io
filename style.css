@@ -53,9 +53,9 @@ ul a {
   padding-left: 10px !important;
   padding-right: 10px !important;
   border-radius:10%;
-    height: 100px;
+    height: 25%;
     width: 33%;
-    margin: 5px 1% 5px 1%;
+    margin: 5% 1% 5% 1%;
     float: left;
     position: relative;
     transition:height 0.5s;
@@ -64,12 +64,12 @@ ul a {
     overflow: hidden;
 
 }
-.grow:hover {
+/* .grow:hover {
     height: 350px; /* This is the height on hover */
 }
-.grow:active {
+/* .grow:active {
   height: 350px;
-}
+} */
 
 
 .h3 {
