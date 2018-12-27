@@ -79,6 +79,7 @@ ul a {
 .row {
   margin-top: 0;
   background-color: black;
+  justify-content: center;
 }
 #col1 {
   padding-left: 70px !important;
@@ -103,21 +104,27 @@ ul a {
   color:white !important;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 25px;
-  padding-left: 110px !important;
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
 
 }
 #more4 {
   color:white !important;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 25px;
-  padding-left: 30px !important;
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
 
 }
 #more5 {
   color:darkgray !important;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 17px;
-  padding-left: 60px !important;
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 #col2 {
   padding-left: 50px !important;
@@ -127,6 +134,14 @@ ul a {
   text-align: center;
 }
 
+@media screen and (max-width:800px) {
+  [class*="column"] {
+    width: 100%;
+  }
+  [class*="container-f"] {
+    width: 100%;
+  }
+}
 
 .h3 a {
   text-decoration: none;
@@ -179,6 +194,8 @@ ul a {
   margin-top: 100px;
   color: white !important;
 }
+
+
 footer {
     color: #31485fff;
     padding: 2px;
