@@ -134,14 +134,6 @@ ul a {
   text-align: center;
 }
 
-@media screen and (max-width:800px) {
-  [class*="column"] {
-    width: 100%;
-  }
-  [class*="container-f"] {
-    width: 100%;
-  }
-}
 
 .h3 a {
   text-decoration: none;
