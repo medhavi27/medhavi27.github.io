@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Asap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 body {
-   padding-top: 10%;
    overflow-x: hidden;
     text-align: center;
     font-family: 'Asap', sans-serif;
@@ -10,7 +9,6 @@ body {
 }
 
 .navbar {
-    padding: 15px 10px 15px 5px;
     display: flex;
     align-items: center;
     background-color: #000000;
@@ -18,7 +16,7 @@ body {
    left: 0;
    right: inherit;
    width: 100%;
-   position: fixed;
+   /* position: fixed; */
    z-index: 100;
 }
 
@@ -51,12 +49,28 @@ ul a {
 }
 #portimga {
   border-radius: 5%;
-  width: 85%;
-  height: 80%;
+  width: 80%;
+  height: 75%;
 }
 #portimgb {
+  border-radius: 5%;
+  width: 85%;
+  height: 90%;
 
 }
+#portimgc {
+  border-radius: 5%;
+  width: 85%;
+  height: 95%;
+
+}
+#portimgd {
+  border-radius: 5%;
+  width: 75%;
+  height: 55%;
+
+}
+
 
  /* .grow:hover {
     height: 350px;
@@ -73,6 +87,10 @@ ul a {
   display: flex;
   align-items: center;
   padding-left: 10%;
+}
+#more2 {
+  padding-bottom: 2%;
+  padding-top: 2%;
 }
 
 #text1 {
