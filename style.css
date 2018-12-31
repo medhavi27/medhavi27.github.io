@@ -49,8 +49,9 @@ ul a {
 }
 #portimga {
   border-radius: 5%;
-  width: 87%;
-  height: 93%;
+  width: 85%;
+  height: 90%;
+
 }
 #portimgb {
   border-radius: 5%;
@@ -66,7 +67,7 @@ ul a {
 }
 #portimgd {
   border-radius: 5%;
-  width: 85%;
+  width: 80%;
   height: 85%;
 
 }
@@ -78,6 +79,13 @@ ul a {
 .grow:active {
   height: 350px;
 } */
+.container-x {
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+
+
+}
 .container-f {
   display: flex;
   align-items: center;
@@ -91,6 +99,7 @@ ul a {
 #more2 {
   padding-bottom: 2%;
   padding-top: 2%;
+  text-align: center;
 }
 
 #text1 {
@@ -116,7 +125,10 @@ ul a {
   font-family: 'Roboto Condensed', sans-serif;
   color: white !important;
 }
-
+.col-sm-4 {
+  padding-left: 2%;
+  padding-right: 2%;
+}
 .row {
   margin-top: 0;
   background-color: black;
@@ -160,12 +172,10 @@ ul a {
      justify-content: center;
      background-color: black;
      display: flex;
+     text-align: center;
 
 }
-.col-sm-4 {
-  width: 50%;
-  height: 50%;
-}
+
 
 
 footer {
